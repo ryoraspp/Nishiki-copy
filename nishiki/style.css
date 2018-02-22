@@ -1,0 +1,268 @@
+/*
+Theme Name: Nishiki
+Author: s56bouya
+Version: 0.1.23
+Description: Nishiki is a fully responsive theme. Elegance,Refined,Multifunctional. In your admin panel, go to Appearance -> Customize. About 80 customization can be done without writing the code. responsive layout, front page setting, movie setting, etc. Customization often required for web production / website operation can be set.
+Tags:one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-colors, custom-header, custom-menu, custom-logo, featured-images, sticky-post, blog
+Theme URI: https://support.animagate.com/manual/category/wp-nishiki/
+Author URI: https://www.imamura.biz/blog/
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nishiki
+*/
+
+/*------------------------------------------------------------
+   カエレバ
+-------------------------------------------------------------*/
+.kaerebalink-box {
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+	width: auto;
+	padding: 0 20px 0 0;
+	background-color: #F8E0E0;
+}
+
+.kaerebalink-box:hover {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(1.00,#F5D0A9),color-stop(0.48,#F5D0A9),color-stop(0.48,#F5D0A9),color-stop(0.00,#F5D0A9)) !important;
+	background: -webkit-linear-gradient(top,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%) !important;
+	background: -moz-linear-gradient(top,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%) !important;
+	background: -o-linear-gradient(top,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%) !important;
+	background: -ms-linear-gradient(top,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%);
+	background: linear-gradient(to bottom,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%) !important;
+}
+
+.kaerebalink-image {
+	padding-top: 30px;
+	margin: 0;
+	width: 200px;
+	height: 180px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 180px;
+}
+
+.kaerebalink-info {
+	padding: 20px 0 0;
+	font-size: 15px;
+}
+
+.kaerebalink-detail {
+	font-size: 12px;
+}
+
+/*______________________	 
+ヨメレバ（booklink)	 
+________________________*/
+.booklink-box {
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+	width: auto;
+	padding: 0 20px 0 0;
+	background-color: #F8E0E0;
+}
+
+.booklink-box:hover {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(1.00,#F5D0A9),color-stop(0.48,#F5D0A9),color-stop(0.48,#F5D0A9),color-stop(0.00,#F5D0A9)) !important;
+	background: -webkit-linear-gradient(top,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%) !important;
+	background: -moz-linear-gradient(top,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%) !important;
+	background: -o-linear-gradient(top,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%) !important;
+	background: -ms-linear-gradient(top,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%);
+	background: linear-gradient(to bottom,#F5D0A9 0%,#F5D0A9 48%,#F5D0A9 48%,#F5D0A9 100%) !important;
+}
+
+.booklink-image {
+	padding-top: 30px;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 180px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 180px;
+}
+
+.booklink-info {
+	padding: 20px 0 0;
+	font-size: 20px;
+}
+
+.booklink-detail {
+	font-size: 12px;
+}
+
+/*________________	 
+shoplinkについて	 
+_________________*/
+.shoplinkamazon {
+	background: #ff9900;
+}
+
+.shoplinkkindle {
+	background: #D3D3D3;
+}
+
+.shoplinkrakuten {
+	background: #bd0000;
+}
+
+.shoplinkyahoo {
+	background: #8258FA;
+}
+
+.shoplinkyahooAuc {
+	background: #58FA82;
+}
+
+.shoplinkseven {
+	background: #314f91;
+}
+
+.shoplinkkakakucom {
+	background: #051d93;
+}
+
+.shoplinkamazon,	 
+.shoplinkkindle,	 
+.shoplinkrakuten,	 
+.shoplinkyahoo,	 
+.shoplinkyahooAuc {
+	float: left;
+	margin: 3px;
+	padding: 3px;
+	width: 140px;
+	height: 40px;
+	border: 1px solid;
+	box-shadow: inset 0 -1px 3px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,1);
+	text-align: center;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+.shoplinkamazon a,	 
+.shoplinkkindle a,	 
+.shoplinkrakuten a,	 
+.shoplinkyahoo a,	 
+.shoplinkyahooAuc a {
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/*------------------------------------------------------------
+   カエレバ　スマホ表示
+-------------------------------------------------------------*/
+@media screen and (max-width: 640px) {
+	.kaerebalink-box {
+		text-align: center !important;
+		padding: 0 10px 10px !important;
+		margin: 10px 0 !important;
+		left: -15%;
+	}
+	
+	.kaerebalink-image {
+		padding-top: 30px;
+		top: 15%;
+		float: none !important;
+		position: relative;
+		left: 15%;
+	}
+	
+	.booklink-box {
+		text-align: center !important;
+		padding: 0 10px 10px !important;
+		margin: 10px 0 !important;
+		left: -15%;
+	}
+	
+	.booklink-image {
+		padding-top: 30px;
+		top: 15%;
+		float: none !important;
+		position: relative;
+		left: 15%;
+	}
+	
+	/*.kaerebalink-box .kaerebalink-image a img {
+						width: 100px; */
+	.shoplinkamazon,	 
+						.shoplinkrakuten,	 
+						.shoplinkyahoo,	 
+						.shoplinkyahooAuc {
+		float: left;
+		margin: 3px;
+		padding: 3px;
+		width: 210px;
+		height: 40px;
+		border: 1px solid;
+		box-shadow: inset 0 -1px 3px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,1);
+		text-align: center;
+		font-size: 14px;
+		line-height: 35px;
+	}
+	
+	.shoplinkamazon a,	 
+						.shoplinkrakuten a,	 
+						.shoplinkyahoo a,	 
+						.shoplinkyahooAuc a {
+		display: block;
+		color: #fff;
+		font-weight: bold;
+		text-decoration: none !important;
+	}
+}
+
+/*------------------------------------------------------------
+   カエレバ　タブレット表示
+-------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+	.kaerebalink-box {
+		text-align: center !important;
+		padding: 0 10px 10px !important;
+		margin: 10px 0 !important;
+		left: -15%;
+	}
+	
+	.kaerebalink-image {
+		padding-top: 30px;
+		top: 15%;
+		float: none !important;
+		position: relative;
+		left: 15%;
+	}
+	
+	.shoplinkamazon,	 
+						.shoplinkrakuten,	 
+						.shoplinkyahoo,	 
+						.shoplinkyahooAuc {
+		float: left;
+		margin: 3px;
+		padding: 3px;
+		width: 210px;
+		height: 40px;
+		border: 1px solid;
+		box-shadow: inset 0 -1px 3px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,1);
+		text-align: center;
+		font-size: 14px;
+		line-height: 35px;
+	}
+	
+	.shoplinkamazon a,	 
+						.shoplinkrakuten a,	 
+						.shoplinkyahoo a,	 
+						.shoplinkyahooAuc a {
+		display: block;
+		color: #fff;
+		font-weight: bold;
+		text-decoration: none !important;
+	}
+}
